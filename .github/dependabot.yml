@@ -9,6 +9,9 @@ updates:
       dotnet-dependencies:
         patterns:
           - "*"
+    # NodaTime is pinned into the certified benchmark and changes only with a re-certification.
+    ignore:
+      - dependency-name: NodaTime
 
   - package-ecosystem: github-actions
     directory: /
