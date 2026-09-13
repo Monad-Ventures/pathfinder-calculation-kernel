@@ -106,8 +106,8 @@ public sealed partial class RepositoryBoundaryTests
         {
             ["codeql.yml"] =
             [
-                "github/codeql-action/init@cdf488f595d80d6e07e03d4674febd5ab45fa938",
-                "github/codeql-action/analyze@cdf488f595d80d6e07e03d4674febd5ab45fa938",
+                "github/codeql-action/init@b96794f015dfd88f77b49b1c93e0fa7110f94c63",
+                "github/codeql-action/analyze@b96794f015dfd88f77b49b1c93e0fa7110f94c63",
                 "build-mode: manual",
                 "  staging-disclosure:\n    if: ${{ github.event.repository.private }}",
                 "CodeQL analysis is deferred while this staging repository is private",
@@ -122,7 +122,7 @@ public sealed partial class RepositoryBoundaryTests
             ],
             ["secret-scan.yml"] =
             [
-                "trufflesecurity/trufflehog@0c952ace0f842f11c75775922d7400335cf60bc6",
+                "trufflesecurity/trufflehog@4b7d1d3a6827691637eff750b6482042e06462d0",
                 "version: 3.97.1",
                 "--results=verified,unknown"
             ]
