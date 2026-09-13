@@ -4,12 +4,12 @@ This repository is the public source boundary for PathFinder's calculation kerne
 
 ## Releases
 
-Each release is an immutable Git tag `vX.Y.Z`. Its GitHub release page, `https://github.com/deliqs/pathfinder-calculation-kernel/releases/tag/vX.Y.Z`, carries the certification bundle (`packages/`, `reproduction/`, `benchmark/`, SBOM, `SHA256SUMS`) and the NuGet package `PathFinder.CalculationKernel` at the same version. The current package version is declared in `Directory.Build.props`.
+Each release is an immutable Git tag `vX.Y.Z`. Its GitHub release page, `https://github.com/Monad-Ventures/pathfinder-calculation-kernel/releases/tag/vX.Y.Z`, carries the certification bundle (`packages/`, `reproduction/`, `benchmark/`, SBOM, `SHA256SUMS`) and the NuGet package `PathFinder.CalculationKernel` at the same version. The current package version is declared in `Directory.Build.props`.
 
 Reproduce against a tag:
 
 ```bash
-git clone --branch <tag> --depth 1 https://github.com/deliqs/pathfinder-calculation-kernel.git
+git clone --branch <tag> --depth 1 https://github.com/Monad-Ventures/pathfinder-calculation-kernel.git
 ```
 
 Compare `benchmark/results/results.sha256` with the certification bundle. The nupkg attached to the GitHub release matches `SHA256SUMS` byte for byte; the copy served by nuget.org carries nuget.org's repository signature (`.signature.p7s`) and therefore hashes differently, while every other entry in the package is identical.

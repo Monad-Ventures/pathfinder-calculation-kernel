@@ -51,7 +51,7 @@ public static class Program
             Path.Combine(root, "benchmark", "cases", "cases.json"), cancellationToken));
         using var httpClient = new HttpClient();
         httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(
-            "PathFinder-Calculation-Benchmark/0.1 (+https://github.com/deliqs/pathfinder-calculation-kernel)");
+            "PathFinder-Calculation-Benchmark/0.1 (+https://github.com/Monad-Ventures/pathfinder-calculation-kernel)");
         await JplRefreshService.RefreshAsync(
             command.OutputDirectory,
             Path.Combine(root, "benchmark"),

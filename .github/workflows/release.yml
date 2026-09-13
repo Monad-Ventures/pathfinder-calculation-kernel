@@ -144,7 +144,7 @@ jobs:
 
           Reproduce against this tag:
 
-          git clone --branch v${PACKAGE_VERSION} --depth 1 https://github.com/deliqs/pathfinder-calculation-kernel.git
+          git clone --branch v${PACKAGE_VERSION} --depth 1 https://github.com/Monad-Ventures/pathfinder-calculation-kernel.git
           EOF
           gh release create "$GITHUB_REF_NAME" \
             --verify-tag \

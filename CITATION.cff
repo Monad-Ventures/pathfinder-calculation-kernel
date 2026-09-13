@@ -6,8 +6,8 @@ version: 1.0.0
 authors:
   - name: "PathFinder contributors"
 license: MIT
-repository-code: "https://github.com/deliqs/pathfinder-calculation-kernel"
-url: "https://github.com/deliqs/pathfinder-calculation-kernel"
+repository-code: "https://github.com/Monad-Ventures/pathfinder-calculation-kernel"
+url: "https://github.com/Monad-Ventures/pathfinder-calculation-kernel"
 keywords:
   - astronomy
   - astrology

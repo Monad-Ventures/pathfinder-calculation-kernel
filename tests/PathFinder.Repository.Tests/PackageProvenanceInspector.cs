@@ -12,8 +12,8 @@ namespace PathFinder.Repository.Tests;
 internal static partial class PackageProvenanceInspector
 {
     private const string VirtualRoot = "/_/";
-    private const string RepositoryUrl = "https://github.com/deliqs/pathfinder-calculation-kernel";
-    private const string RawSourcePrefix = "https://raw.githubusercontent.com/deliqs/pathfinder-calculation-kernel/";
+    private const string RepositoryUrl = "https://github.com/Monad-Ventures/pathfinder-calculation-kernel";
+    private const string RawSourcePrefix = "https://raw.githubusercontent.com/Monad-Ventures/pathfinder-calculation-kernel/";
     private static readonly Guid SourceLinkKind = new("CC110556-A091-4D38-9FEC-25AB9A351A6A");
     private static readonly Guid Sha256Kind = new("8829D00F-11B8-4213-878B-770E8597AC16");
     private static readonly Guid Sha1Kind = new("FF1816EC-AA5E-4D10-87F7-6F4963833460");
