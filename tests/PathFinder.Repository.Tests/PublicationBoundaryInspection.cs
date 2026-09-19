@@ -136,7 +136,6 @@ public sealed partial class RepositoryBoundaryTests
             "LICENSES/NodaTime-Apache-2.0.txt",
             "LICENSES/NodaTime-NOTICE.txt",
             ".github/CODEOWNERS",
-            ".github/dependabot.yml",
             ".github/workflows/ci.yml",
             ".github/workflows/release.yml",
             ".github/workflows/refresh-references.yml"
