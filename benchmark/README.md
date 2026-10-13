@@ -41,7 +41,7 @@ The generated files must be byte-identical to the published counterparts:
 - `benchmark/provenance/calculation-source-manifest.json`
 
 The published `results.json` SHA-256 is
-`d3622e983007e1854c6928be2a6e11dae7939a33a4c3725eae4829dac8be87df`.
+`25df1556a41cf3275a7d0cc5946edd2729effe0e74d6b4f750536ed65e4da38d`.
 
 ## Refresh candidates
 

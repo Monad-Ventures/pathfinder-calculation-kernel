@@ -24,7 +24,7 @@ public class CalculationKernelMetadataTests
             Assert.Contains(first, item => item is
                 { Name: "runtimeDependency:CosineKitty.AstronomyEngine", Value: "2.1.19" });
             Assert.Contains(first, item => item is
-                { Name: "runtimeDependency:NodaTime", Value: "3.3.3" });
+                { Name: "runtimeDependency:NodaTime", Value: "3.3.5" });
             Assert.DoesNotContain(first, item =>
                 item.Name.Contains("commit", StringComparison.OrdinalIgnoreCase) ||
                 item.Value.Contains("commit", StringComparison.OrdinalIgnoreCase) ||

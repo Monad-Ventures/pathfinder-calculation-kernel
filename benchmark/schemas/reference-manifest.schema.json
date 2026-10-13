@@ -51,7 +51,7 @@
       "additionalProperties": false,
       "required": ["nodaTimePackageVersion", "providerVersion", "source", "caseSemantics"],
       "properties": {
-        "nodaTimePackageVersion": { "const": "3.3.3" },
+        "nodaTimePackageVersion": { "const": "3.3.5" },
         "providerVersion": { "type": "string" },
         "source": { "const": "IANA TZDB distributed by Noda Time" },
         "caseSemantics": { "const": "compatibility; not an independent timezone-engine comparison" }

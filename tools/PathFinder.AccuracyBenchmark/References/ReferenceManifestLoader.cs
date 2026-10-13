@@ -130,7 +130,7 @@ public static class ReferenceManifestLoader
 
     private static void ValidateTzdb(TzdbReferenceSource source)
     {
-        Require(source.NodaTimePackageVersion == "3.3.3", "Noda Time package version is invalid");
+        Require(source.NodaTimePackageVersion == "3.3.5", "Noda Time package version is invalid");
         RequireText(source.ProviderVersion, "TZDB providerVersion");
         Require(source.Source == TzdbSource, "TZDB source is invalid");
         Require(source.CaseSemantics == TzdbSemantics, "TZDB case semantics are invalid");

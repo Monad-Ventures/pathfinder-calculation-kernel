@@ -2,7 +2,7 @@
 
 ## Frozen scope
 
-Dataset revision `calculation-benchmark-5` contains:
+Dataset revision `calculation-benchmark-6` contains:
 
 - 44 geocentric longitude comparisons: 11 bodies at four epochs;
 - 228 house-cusp comparisons: 12 cusps at 19 location/epoch/system cases;
@@ -90,8 +90,8 @@ silently changing the benchmark.
 ## Historical civil-time cases
 
 These rows exercise PathFinder's Noda Time lenient mapping policy for a skipped day, British Double
-Summer Time, and historical Amsterdam local time. The manifest pins Noda Time 3.3.3 and TZDB
-`2026c`. Because the runner and kernel use the same provider, these are deterministic compatibility
+Summer Time, and historical Amsterdam local time. The manifest pins Noda Time 3.3.5 and TZDB
+`2026e`. Because the runner and kernel use the same provider, these are deterministic compatibility
 checks, not independent validation of TZDB history.
 
 ## Canonicalization and pass criteria

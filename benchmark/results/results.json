@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "datasetRevision": "calculation-benchmark-5",
+  "datasetRevision": "calculation-benchmark-6",
   "provenance": {
     "calculationPackage": "PathFinder.CalculationKernel",
     "calculationRevision": "4",
-    "calculationSourceManifestSha256": "44c00e22c9a75dc81ff60e246f55232c7c05b61c01dab3088d531abecb03c031",
-    "referenceManifestSha256": "1ffac5a83d359ea8161c2078ae0e846c2cd5724e007757d8126f6352cd88a759",
+    "calculationSourceManifestSha256": "f7f8505ff0be2fb1236132a6d8d6e5bb97ec2c639d0d9b03435fd220186ab931",
+    "referenceManifestSha256": "3fadc0793b7cd6df733c2e8ba3e8be55e3c08ce5925aa0dc8242bb66fb258480",
     "astronomyEngineVersion": "2.1.19",
-    "nodaTimeVersion": "3.3.3",
-    "tzdbVersion": "TZDB: 2026c (mapping: 48.2)",
+    "nodaTimeVersion": "3.3.5",
+    "tzdbVersion": "TZDB: 2026e (mapping: 48.2)",
     "jplApiSource": "NASA/JPL Horizons API",
     "jplApiVersion": "1.2",
     "swissEphemerisVersion": "2.10.03",
@@ -4096,7 +4096,7 @@
       "warningCodes": [
         "dst_gap_adjusted"
       ],
-      "tzdbVersion": "TZDB: 2026c (mapping: 48.2)",
+      "tzdbVersion": "TZDB: 2026e (mapping: 48.2)",
       "executed": true
     },
     {
@@ -4109,7 +4109,7 @@
       "utcInstant": "1941-07-01T10:00:00Z",
       "selectedOffset": "\u002B02",
       "warningCodes": [],
-      "tzdbVersion": "TZDB: 2026c (mapping: 48.2)",
+      "tzdbVersion": "TZDB: 2026e (mapping: 48.2)",
       "executed": true
     },
     {
@@ -4122,7 +4122,7 @@
       "utcInstant": "1850-01-01T11:42:30Z",
       "selectedOffset": "\u002B00:17:30",
       "warningCodes": [],
-      "tzdbVersion": "TZDB: 2026c (mapping: 48.2)",
+      "tzdbVersion": "TZDB: 2026e (mapping: 48.2)",
       "executed": true
     }
   ]

@@ -15,7 +15,7 @@ public sealed class ReferenceManifestLoaderTests
 
         var verified = ReferenceManifestLoader.Load(fixture.ManifestBytes, fixture.Root, fixture.Cases);
 
-        Assert.Equal("calculation-benchmark-5", verified.Manifest.DatasetRevision);
+        Assert.Equal("calculation-benchmark-6", verified.Manifest.DatasetRevision);
         Assert.Equal("Version: 2.10.03\n", Encoding.UTF8.GetString(
             verified.Read(verified.Manifest.Swiss.VersionOutput)));
         Assert.Equal("house  1       123.456789\n", Encoding.UTF8.GetString(
@@ -217,7 +217,7 @@ public sealed class ReferenceManifestLoaderTests
             }).ToArray();
             var manifest = new ReferenceManifest(
                 2,
-                "calculation-benchmark-5",
+                "calculation-benchmark-6",
                 new JplReferenceSource(
                     HorizonsQueryBuilder.ApiSource,
                     HorizonsQueryBuilder.ApiVersion,
@@ -237,7 +237,7 @@ public sealed class ReferenceManifestLoaderTests
                     version,
                     swissRequests),
                 new TzdbReferenceSource(
-                    "3.3.3",
+                    "3.3.5",
                     DateTimeZoneProviders.Tzdb.VersionId,
                     "IANA TZDB distributed by Noda Time",
                     "compatibility; not an independent timezone-engine comparison"));

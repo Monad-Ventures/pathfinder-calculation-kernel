@@ -65,7 +65,7 @@
     },
     {
       "path": "src/PathFinder.CalculationKernel/Provenance/CalculationKernelMetadata.cs",
-      "sha256": "12db8ad9688fba51473b223e951871513ecd7152686b9647707a78e7f8f2d89a"
+      "sha256": "c8b12193d3499580b8d0545dd9aacde772ff80194e067c4cdce7f4561fe43134"
     },
     {
       "path": "src/PathFinder.CalculationKernel/Search/LongitudeCrossingFinder.cs",
@@ -187,7 +187,7 @@
     },
     {
       "name": "runtimeDependency:NodaTime",
-      "value": "3.3.3"
+      "value": "3.3.5"
     },
     {
       "name": "siderealTimeModel",

@@ -40,7 +40,7 @@ public static class CalculationKernelMetadata
             new SourceManifestProperty("placidusPolarFallback", "porphyry-above-60-degrees"),
             new SourceManifestProperty("regiomontanusPolarFallback", "porphyry-above-66-degrees"),
             new SourceManifestProperty("runtimeDependency:CosineKitty.AstronomyEngine", "2.1.19"),
-            new SourceManifestProperty("runtimeDependency:NodaTime", "3.3.3"),
+            new SourceManifestProperty("runtimeDependency:NodaTime", "3.3.5"),
             new SourceManifestProperty("siderealTimeModel", "truncated-gmst"),
             new SourceManifestProperty("stationSampleMinutes", "10")
         }.OrderBy(item => item.Name, StringComparer.Ordinal).ToArray());

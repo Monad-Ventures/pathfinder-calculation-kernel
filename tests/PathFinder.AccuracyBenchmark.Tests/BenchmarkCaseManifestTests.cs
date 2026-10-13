@@ -13,7 +13,7 @@ public sealed class BenchmarkCaseManifestTests
         var manifest = BenchmarkCaseManifestLoader.Load(File.ReadAllBytes(path));
 
         Assert.Equal(2, manifest.SchemaVersion);
-        Assert.Equal("calculation-benchmark-5", manifest.DatasetRevision);
+        Assert.Equal("calculation-benchmark-6", manifest.DatasetRevision);
         Assert.Equal(44, manifest.Positions.Count);
         Assert.Equal(19, manifest.Houses.Count);
         Assert.Equal(6, manifest.Timings.Count);

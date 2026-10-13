@@ -10,7 +10,7 @@ Project: <https://github.com/cosinekitty/astronomy>
 
 ## Noda Time and IANA time-zone data
 
-The calculation kernel and benchmark reference `NodaTime` version `3.3.3`, distributed under the Apache License 2.0. Its license and NOTICE are reproduced in `LICENSES/NodaTime-Apache-2.0.txt` and `LICENSES/NodaTime-NOTICE.txt`.
+The calculation kernel and benchmark reference `NodaTime` version `3.3.5`, distributed under the Apache License 2.0. Its license and NOTICE are reproduced in `LICENSES/NodaTime-Apache-2.0.txt` and `LICENSES/NodaTime-NOTICE.txt`.
 
 Noda Time distributes compiled time-zone data derived from the IANA Time Zone Database. The IANA provenance is retained through Noda Time's data and documentation. This repository does not claim authorship of IANA zone rules.
 

@@ -47,6 +47,6 @@ public class ChartTimeResolverTests
         Assert.Equal(
             expectedWarning is null ? [] : [expectedWarning],
             result.Warnings.Select(warning => warning.Code));
-        Assert.Equal("TZDB: 2026c (mapping: 48.2)", result.TzdbVersion);
+        Assert.Equal("TZDB: 2026e (mapping: 48.2)", result.TzdbVersion);
     }
 }

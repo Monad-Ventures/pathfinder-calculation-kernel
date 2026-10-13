@@ -11,8 +11,8 @@ public sealed partial class RepositoryBoundaryTests
             ["CosineKitty.AstronomyEngine"] = "2.1.19",
             ["Microsoft.NET.Test.Sdk"] = "18.10.0",
             ["Microsoft.SourceLink.GitHub"] = "10.0.401",
-            ["NodaTime"] = "3.3.3",
-            ["PathFinder.CalculationKernel"] = "1.0.0",
+            ["NodaTime"] = "3.3.5",
+            ["PathFinder.CalculationKernel"] = "1.0.1",
             ["xunit"] = "2.9.3",
             ["xunit.runner.visualstudio"] = "4.0.0"
         };
